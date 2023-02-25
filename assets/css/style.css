@@ -19,6 +19,7 @@ h1, h2{
 #logo{
     float: left;
     font-size: 280%;
+    letter-spacing: left;
 }
 #menu{
     font-size: 110%;
@@ -81,7 +82,20 @@ h1, h2{
     padding-left: 10px;
     background-color: grey;
     bottom: 30px;
-    left: 30px;
+    left: 130px;
     position: absolute;
     opacity: 0.5;
+}
+#bottom-section{
+    height: 600px;
+}
+#left-bottom{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+#right-bottom{
+    padding-top: 30px;
+    width: 33%;
+    float: right;
 }
