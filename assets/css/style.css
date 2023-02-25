@@ -9,6 +9,7 @@ body{
     font-family:Montserrat, sans-serif;
     font-weight: 300px;
     color: black;
+    background-color: #fafafa;
 }
 h1, h2{
     font-family: Montserrat, sans-serif;
@@ -41,10 +42,10 @@ h1, h2{
     color: inherit;
 }
 #menu a:hover{
-    border-bottom: 1px solid blue;
+    background-color:#cecece;
 }
 .active{
-    border-bottom: 1px solid blue;
+    background-color:#cecece;
 }
 #home-cover{
     height: 600PX;
@@ -122,4 +123,19 @@ hr{
     text-align: left;
     margin: 50px 0;
     font-size: 280%;
+}
+footer{
+    height: 150px;
+}
+.social-media{
+    text-align: center;
+    background-color: FFFFFF7;
+}
+.social-media > li{
+display: inline;
+}
+.social-media img{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
