@@ -43,11 +43,11 @@ h1, h2{
     color: inherit;
 }
 #menu a:hover{
-    background-color:#cecece;
+    background-color: #808080;
+    color: #ffff;
 }
 .active{
-    background-color:#cecece;
-    opacity: 0.7;
+    background-color: #808080;
 }
 
 #home-image{
@@ -96,10 +96,11 @@ hr{
 }
 footer{
     height: 150px;
+    
 }
 .social-media{
     text-align: center;
-    background-color: FFFFFF7;
+    background-color: #bebebe;
 }
 .social-media > li{
 display: inline;
