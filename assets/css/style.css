@@ -43,3 +43,45 @@ h1, h2{
 .active{
     border-bottom: 1px solid blue;
 }
+#home-cover{
+    height: 600PX;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#home-text, #home-text h2{
+    color: aliceblue;
+}
+#home-image{
+    height: 600PX;
+    width: 100%;
+    background: url('../images/home-image.gif') no-repeat center center;
+
+    animation-name: home-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes home-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+#home-text{
+    font-size: 100%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: grey;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    opacity: 0.5;
+}
