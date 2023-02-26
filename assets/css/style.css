@@ -12,14 +12,15 @@ body{
     background-color: lightgrey;
    
 }
-/*
-h1, h2{
+
+h1{
     font-family: Lato, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: black;
+    letter-spacing: 1px;
+    color: purple;
+    opacity: 0.8;
+    
 }
-*/
+
 #logo{
     background-color: lightgrey;
     float: left;
@@ -33,6 +34,7 @@ h1, h2{
     font-size: 110%;
     letter-spacing: 1px;
     margin: 30px 0;
+    color: purple;
 }
 #menu #logo{
     line-height: 75px; 
@@ -64,6 +66,14 @@ h1, h2{
     margin-bottom: 20px;
     overflow: hidden; 
     clear: both;
+    color: purple;
+    opacity: 0.8;
+}
+#offices h2{
+    margin-left: 0%;
+}
+#offices ul{
+    font-size: 120%;
 }
 
 #home-image{
@@ -74,10 +84,12 @@ h1, h2{
     background: url('../images/home-image.png') no-repeat center center;
     overflow: hidden;
 }
+
 #service{
     margin: 0 80px;
     width: 90%;
     height: 100Px;
+    color: purple;
 
 }
 
@@ -93,6 +105,7 @@ table, th, td{
     border: 2px solid black;
     border-collapse: collapse;
     font-size: 110%;
+    color: purple;
 }
 table{
     margin-left: 200px;
@@ -117,6 +130,7 @@ div form, div h2 {
     height: 300px;
     margin: 10px;
     overflow: hidden;
+    color: purple;
 }
 #in-store{
     text-align: left;
@@ -168,4 +182,6 @@ display: inline;
     font-size: 30%;
     margin: 1%;
     padding: 1%;
+    height: 30px;
+    width: 30px;
 }
